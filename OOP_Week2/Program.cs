@@ -15,6 +15,11 @@ namespace OOP_Week2
             Person person1 = new Person("Ryan",23,"Cleveland");
 
             Console.WriteLine(person1.name);
+            Console.WriteLine(person1.favFood);
+
+            Person person2 = new Person("Abby", 28, "NYC", "BLT");
+            Console.WriteLine(person2.name);
+            Console.WriteLine(person2.favFood);
 
 
         }

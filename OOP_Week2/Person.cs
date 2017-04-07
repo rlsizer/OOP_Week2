@@ -41,7 +41,13 @@ namespace OOP_Week2
             this.favFood = favFood;
         }
 
-
+        
+        public void Greeting()
+        {
+            Console.WriteLine("\r\n\r\nHello, my name is " + name);
+            Console.WriteLine("\r\nI'm " + age + " and I'm from " + hometown + ".");
+            Console.WriteLine("\r\nMy favorite food is " + favFood);
+        }
 
 
 
