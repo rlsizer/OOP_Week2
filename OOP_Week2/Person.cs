@@ -18,6 +18,7 @@ namespace OOP_Week2
         //Default constructor method
         public Person()
         {
+            this.name = "John Doe";
 
         }
 
@@ -28,6 +29,7 @@ namespace OOP_Week2
             this.name = name;
             this.age = age;
             this.hometown = hometown;
+            this.favFood = "[Not entered]";
             
 
         }
