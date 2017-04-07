@@ -13,13 +13,12 @@ namespace OOP_Week2
 
             //Instantiate Person class; pass corresponding arguments/parameters into it
             Person person1 = new Person("Ryan",23,"Cleveland");
-
-            Console.WriteLine(person1.name);
-            Console.WriteLine(person1.favFood);
+            person1.Greeting();
 
             Person person2 = new Person("Abby", 28, "NYC", "BLT");
-            Console.WriteLine(person2.name);
-            Console.WriteLine(person2.favFood);
+            person2.Greeting();
+
+
 
 
         }
