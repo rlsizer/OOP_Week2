@@ -18,7 +18,11 @@ namespace OOP_Week2
 
             Person person2 = new Person("Abby", 28, "NYC", "BLT");
             person2.Greeting();
+            Console.WriteLine();
 
+            //Instantiate default constructor
+            Person person3 = new Person();
+            person3.Greeting();
 
 
 
