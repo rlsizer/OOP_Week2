@@ -32,7 +32,17 @@ namespace OOP_Week2
 
         }
 
-        
+        //Constructor method with additional attribute
+        public Person(string name, int age, string hometown, string favFood)
+        {
+            this.name = name;
+            this.age = age;
+            this.hometown = hometown;
+            this.favFood = favFood;
+        }
+
+
+
 
 
 

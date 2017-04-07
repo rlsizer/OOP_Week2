@@ -11,7 +11,10 @@ namespace OOP_Week2
         static void Main(string[] args)
         {
 
+            //Instantiate Person class; pass corresponding arguments/parameters into it
+            Person person1 = new Person("Ryan",23,"Cleveland");
 
+            Console.WriteLine(person1.name);
 
 
         }
